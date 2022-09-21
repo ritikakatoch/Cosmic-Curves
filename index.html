@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="images/icon.jpg" href="images/icon.jpg">
+    <title>weight machine</title>
+</head>
+<body>
+ 
+    <h1>Your weight on different worlds</h1>
+   
+    <div id="weight">
+          <div id="div1"> <label id="person_weight"> <p>Enter your weight :</p></div>
+          <div id="div2"><input type="number" id="weights" placeholder="50kg"></div> 
+    </div>  
+       <div id="solar">
+            <div id="div3"> <label id="person_weight"><p>Choose the planet :</p></div>
+            <select id="planets">
+              <option id="Mercury" class="planet" value="mercury">Mercury</option>
+              <option id="Venus"   class="planet" value="venus">Venus</option>
+              <option id="Earth"   class="planet" value="earth">Earth</option>
+              <option id="Mars"    class="planet" value="mars">Mars</option>
+              <option id="Jupiter" class="planet" value="jupiter">Jupiter</option>
+              <option id="Saturn"  class="planet" value="saturn">Saturn</option>
+              <option id="Uranus"  class="planet" value="uranus">Uranus</option>
+              <option id="Neptune" class="planet" value="neptune">Neptune</option>
+            </select>
+     </div>
+     <button onclick="fnPro()" type="button" id="btn">calculate</button>
+     <!-- <button onclick="backFun()" type="button" id="reset">reset</button> -->
+     <!-- <h5 id="ans1"></h1> -->
+     <div id="ans"> </div>
+     <div id="picDiv"><div id="vals"></div></div>
+    <div id="div4" class="vals">
+     <div class="planets1 mercury"><img src="images/mercury.png" alt=""></div>
+     <div class="planets1 venus"><img src="images/venus.png" alt=""></div>
+     <div class="planets1 earth"><img src="images/earth.png" alt=""></div>
+     <div class="planets1 mars"><img src="images/mars.png" alt=""></div>
+     <div class="planets1 jupiter"><img src="images/jupiter.png" alt=""></div>
+     <div class="planets1 saturn"><img src="images/saturn.png" alt=""></div>
+     <div class="planets1 uranus"><img src="images/uranus.png" alt=""></div>
+     <div class="planets1 neptune"><img src="images/neptune.png" alt=""></div>
+    </div> 
+    <!-- <div id="ans">
+    </div> -->
+    <!-- <div id="vals"></div> -->
+    <script src="script1.js"></script>
+</body>
+</html>

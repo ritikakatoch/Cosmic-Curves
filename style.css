@@ -1,0 +1,330 @@
+body{
+    /* background-color: black; */
+    background-image: url("images/bg.jpg");
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+}
+
+/*heading*/
+h1{ 
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: bolder;
+    font-size: 40px;
+    color: #D28614;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#headings{
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*Input*/
+#weight{
+    /*padding-top: 20px;*/
+    text-align: center;
+    /*text-shadow: darkgoldenrod 2px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+#div1 {
+    background-color: #383535;
+    border-radius: 10px;
+    height:3rem ;
+    width:11rem ;
+    align-items: center;
+    align-content: center;
+}
+#div2{
+    background-color: #383535;
+    border-radius: 10px;
+    height:3rem ;
+    width:11rem ;
+    margin-left: 10px;
+    align-items: center;
+    align-content: center;
+}
+p{
+    margin-top:10px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+#div3{
+    background-color: #383535;
+    border-radius: 10px;
+    height:3rem ;
+    width:11rem ;
+    align-items: center;
+    align-content: center;
+}
+
+#div4{
+    margin-top: 2px!important;
+}
+
+#weights{
+    background-color: white;
+    color: black;
+    height: 2.7rem;
+    width: 11rem;
+    font-size:15px;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+#person_weight{
+    color:white;
+    font-size: 15px;
+    align-items: center;
+    align-content: center;
+    margin-top:5px;
+    
+}
+
+#solar{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#planet{
+    
+    color:black;
+    font-size: 12px;
+    align-items: center;
+    align-content: center;
+    /* margin-top: 5px; */
+    border-radius: 30px;
+    font-weight: 900;
+    height: 2.8rem;
+    width: 13rem;
+
+}
+
+#planets{
+    padding:10px;
+    font-size: 18px;
+    color: black;
+    height: 3rem;
+    width: 11rem;
+    border-radius: 10px;
+    margin-left:20px;
+    text-align: center;
+    /* font-weight: bold; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* .plant{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+} */
+
+#btn{
+    height: 3rem;
+    width: 8rem;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: 45%;
+    margin-top:1rem;
+    background-color: #D28614; 
+}
+/* 
+#reset{
+    height: 3rem;
+    width: 8rem;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: 50%;
+    margin-top:-3rem;
+    background-color: ;
+} */
+
+.planets1{
+    /* height: 80px; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    /* animation: rotation 3s infinite 1s;
+    transform: translate(-40%, -40%); */
+    animation: rotation 18s infinite linear ; 
+    /* animation-duration: 6s; */
+    
+
+}
+.mercury{
+    /* height: 80px;
+    width: 40px; */
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  /* left: 1vw; */
+  /* top: 25vh; */
+  z-index: 7;
+  margin-top: -15rem;
+  margin-left: -2rem;
+  /* filter: brightness(0.7); */
+  
+
+    
+}
+.venus{
+    width: 220px;
+    height: 220px;
+    left: 50vw;
+    /* top: 50vh;  */
+    margin-left: 6rem;
+    margin-top: 10rem; 
+    /* margin-top: 200px; */
+    /* top: 25vh; */
+}
+.earth{
+    width: 220px;
+    height: 220px;
+    /* left: 50vw; */
+    /* top: 2vh; */
+    margin-left:20rem;
+    margin-top: -25rem;
+
+}
+.mars{
+    width: 250px;
+    height: 250px;
+    left: 50vw;
+    top: 50vh; 
+    margin-left:33rem; 
+    margin-top: -5rem;
+}
+.jupiter{
+    width: 200px;
+    height: 200px;
+    left: 50vw;
+    top: 50vh; 
+    margin-left:50rem; 
+    margin-top: -25rem;
+}
+.saturn{
+    /* width: 200px;
+    height: 200px; */
+    width: 180px;
+    height: 180px;
+    left: 50vw;
+    top: 50vh; 
+    margin-left:60rem; 
+    margin-top: 2rem;
+    /* animation: anti-spin 10s infinite linear; */
+    animation: key1 2s ease infinite alternate;
+    /* margin-left: 65rem; */
+}
+.uranus{
+    width: 200px;
+    height: 200px;
+    /* left: 50vw; */
+    /* top: 50vh;  */
+    margin-left:70rem; 
+    margin-top: -28rem;
+}
+.neptune{
+    width: 230px;
+    height: 230px;
+    /* left: 60vw; */
+    top: 50vh; 
+    margin-left:78rem; 
+    margin-top: 1rem;
+    /* animation: anti-spin 5s infinite linear; */
+} 
+
+#picDiv{
+    padding-top: 2rem;
+    animation: rotateDiv 5s  infinite linear alternate;
+}
+#vals{
+    display: flex;
+    justify-content: center;
+    left:50%;
+    bottom:0;
+    margin-top:-25px;
+    margin-left:-25px;
+    /* animation-direction:alternate ; */
+    animation: key1 2s ease infinite alternate;
+    /* -webkit-animation:bounce 1s infinite; */
+}
+
+@keyframes key1{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes rotatePlanet{
+    0%{
+        transform: translateZ(10px);
+    }
+    100%{
+        transform: translateZ(-10px);
+    }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  /* Keep planet image flat */
+  @keyframes anti-spin {
+    from { transform: rotateY(0); }
+    to   { transform: rotateY(-360deg); }
+  }
+  @keyframes anti-spin-rings {
+    from { transform: rotateY(0) rotateX(73deg); }
+    to   { transform: rotateY(-360deg) rotateX(73deg); }
+  } 
+
+  #ans{
+    color: white;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 35px;
+    
+}
