@@ -1,0 +1,3 @@
+## About Solar Weight Calculator 🌌🪐🔢
+
+Welcome to CosmicCurves, your go-to tool for discovering how your weight measures up on different planets of our solar system! Ever wondered how much you'd weigh on Mars or Jupiter? With CosmicCurves, you can easily find out. Our intuitive and user-friendly interface allows you to input your weight on Earth and instantly see how it translates to other celestial bodies. Whether you're a space enthusiast 🌠, a curious mind 🤔, or simply looking to learn something new 🎓, Solar Weight Calculator provides a fun and educational experience for all. Join us as we embark on a journey through the cosmos, one weight calculation at a time! 🚀✨💫
